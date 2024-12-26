@@ -7,3 +7,9 @@ make estate-db
 
 list db relation 
 \dt
+
+**virtual env**
+pipenv shell
+
+**check files that are tracked with git**
+git ls-files --others --exclude-standard
