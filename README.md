@@ -13,3 +13,7 @@ pipenv shell
 
 **check files that are tracked with git**
 git ls-files --others --exclude-standard
+
+**SOS**
+adesegunkoiki202@gmail.com
+password

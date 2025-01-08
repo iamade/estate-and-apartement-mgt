@@ -7,7 +7,7 @@ RUN apk add --no-cache libc6-compat
 COPY package.json yarn.lock* package-lock.json* pnpm-lock.yaml* ./
 
 RUN \ 
-    if [ -f yarn.lock ]; then yarn --froen-lockfile; \
+    if [ -f yarn.lock ]; then yarn --frozen-lockfile; \
     elif [ -f package-lock.json ]; then npm ci; \
     elif [ -f pnpm-lock.yaml ]; then corepack enable pnpm && pnpm i; \
     else echo "lockfile not found." && exit 1; \
