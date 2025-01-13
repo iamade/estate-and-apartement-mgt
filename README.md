@@ -20,3 +20,5 @@ password
 
 **localhist**
 8080
+
+bus error how na
