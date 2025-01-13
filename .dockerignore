@@ -9,3 +9,5 @@ venv/
 *.log
 staticfiles/
 .envs/*
+docker-data/*
+node_modules/*
