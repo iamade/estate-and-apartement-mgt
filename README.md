@@ -21,4 +21,4 @@ password
 **localhist**
 8080
 
-bus error how na
+need to run docker network create estate_prod_nw if you delete your volumes

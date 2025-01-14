@@ -95,7 +95,7 @@ services:
     image: estate_prod_flower
     container_name: estate_prod_flower
     ports:
-      - "5555:55555"
+      - "5555:5555"
     command: /start-flower
 
   nginx:
