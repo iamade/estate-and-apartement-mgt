@@ -35,6 +35,12 @@ docker network create estate_prod_nw
 docker compose -f local.yml config
 ```
 
+**running pipenv in the wrong place**
+```
+deactivate
+pipenv --rm
+```
+
 
 
 
