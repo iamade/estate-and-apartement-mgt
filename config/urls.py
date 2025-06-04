@@ -22,7 +22,8 @@ urlpatterns = [
     name="schema-redoc"),
     path(settings.ADMIN_URL, admin.site.urls),
     path("api/v1/auth/", include("djoser.urls")),
-    path("api/v1/auth/", include("core_apps.users.urls"))
+    path("api/v1/auth/", include("core_apps.users.urls")),
+    path("api/v1/profiles/", include("core_apps.profiles.urls")),
 ]
 
 admin.site.site_header="Lekki Apartments Admin"
