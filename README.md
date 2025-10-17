@@ -24,6 +24,8 @@ KaskAtg2
 
 **localhist**
 8080
+**create estate_prod_nw**
+ docker network create estate_prod_nw
 
 **if you delete your volumes**
 need to run 
@@ -40,7 +42,9 @@ docker compose -f local.yml config
 deactivate
 pipenv --rm
 ```
-
-
+### create apartment app
+'''
+docker compose -f local.yml run --rm api python manage.py startapp apartments
+'''
 
 
